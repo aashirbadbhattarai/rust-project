@@ -1,0 +1,41 @@
+li{
+    list-style-type: none;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    column-gap: 30px;
+    padding: 5px;
+}
+
+a{
+    color: black;
+}
+
+.brand-name{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 4rem;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.but{
+    display: flex;
+    flex-direction: column;
+}
+
+.ton{
+    background-color: #ffc832;
+    height: 55px;
+    width: 250px;
+    font-weight: bolder;
+    border-color: #ffc832;
+}
